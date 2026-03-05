@@ -15,4 +15,4 @@ This design follows AWS best practices for high availability, scalability, and s
 ---
 
 ## Architecture Diagram
-![Architecture Diagram](images/Architecture-Diagram.png)
+![Architecture Diagram](images/Architectural-Diagram.png)
