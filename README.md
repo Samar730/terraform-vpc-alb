@@ -33,3 +33,12 @@ This design follows AWS best practices for high availability, scalability, and s
 ![Custom Domain Validation 1](images/custom-domain-validation-1.png)
 
 ![Custom Domain Validation 2](images/custom-domain-validation-2.png)
+
+## Infrastructure Teardown
+
+All AWS resources provisioned in this project have been destroyed using:
+```bash
+terraform destroy
+```
+
+This ensures no ongoing costs are incurred. The architecture can be fully reproduced by following the usage steps above.
