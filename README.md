@@ -16,3 +16,19 @@ This design follows AWS best practices for high availability, scalability, and s
 
 ## Architecture Diagram
 ![Architecture Diagram](images/Architectural-Diagram.png)
+
+#### Phase 1 Validation — ALB DNS Name
+
+✅ Validated at this stage via the **ALB DNS name** — load balancer cycling between both EC2 instances across `eu-west-2a` and `eu-west-2b`.
+
+
+![ALB Validation 1](images/alb-validation-1.png)
+![ALB Validation 2](images/alb-validation-2.png)
+
+#### Phase 2 Validation — Custom Domain (HTTPS)
+
+✅ Validated at this stage via the **custom domain** over HTTPS — confirming DNS resolution and SSL termination working correctly.
+
+
+![Custom Domain Validation 1](images/custom-domain-validation-1.png)
+![Custom Domain Validation 2](images/custom-domain-validation-2.png)
